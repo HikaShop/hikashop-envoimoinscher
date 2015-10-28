@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<opackage>
+	<name>Gen: EnvoiMoinCher</name>
+	<base>
+	</base>
+	<outputs>
+		<output type="zip" path="" filename="plg_hikashopshipping_envoimoinscher" />
+	</outputs>
+	<dictionnary>
+		<entry name="{__VERSION__}" value="2.6.0" />
+		<entry name="{__YEAR__}" date="yyyy" />
+		<entry name="{__MONTH__}" date="mm" />
+		<entry name="{__DAY__}" date="dd" />
+	</dictionnary>
+	<files>
+		<file name="envoimoinscher.php">
+			<rule type="*" action="sourcecode" param="replace;commentary;header:header.txt;" />
+		</file>
+		<file name="envoimoinscher_configuration.php">
+			<rule type="*" action="sourcecode" param="replace;commentary;header:header.txt;" />
+		</file>
+		<file name="envoimoinscher_view.php">
+			<rule type="*" action="sourcecode" param="replace;commentary;header:header.txt;" />
+		</file>
+		<file name="envoimoinscher.xml">
+			<rule type="*" action="sourcecode" param="replace" />
+		</file>
+		<file name="index.html"/>
+		<directory name="lib\" filter="*.*" subDirs="true">
+			<rules>
+				<rule type="directory" action="addfile" param="index.html" />
+				<rule type="*.php" action="sourcecode" param="replace;commentary;header:header.txt;" />
+			</rules>
+		</directory>
+	</files>
+	<excludes>
+		<exclude name="*.bak" />
+		<exclude name="*.zip" />
+	</excludes>
+</opackage>

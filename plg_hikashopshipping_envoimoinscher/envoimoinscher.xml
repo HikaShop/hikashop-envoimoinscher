@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="2.5" method="upgrade" group="hikashopshipping">
+	<name>Hikashop Envoimoinscher Shipping Plugin</name>
+	<creationDate>{__DAY__} {__MONTH__} {__YEAR__}</creationDate>
+	<version>{__VERSION__}</version>
+	<author>Hikashop</author>
+	<authorEmail>dev@hikashop.com</authorEmail>
+	<authorUrl>http://www.hikashop.com</authorUrl>
+	<copyright>(C) 2010-{__YEAR__} HIKARI SOFTWARE. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description>This plugin enables you to setup handle Envoimoinscher service</description>
+	<files>
+		<filename plugin="envoimoinscher">envoimoinscher.php</filename>
+		<filename>envoimoinscher_configuration.php</filename>
+		<filename>envoimoinscher_view.php</filename>
+		<filename>index.html</filename>
+		<folder>lib</folder>
+	</files>
+	<params addpath="/components/com_hikashop/params">
+	</params>
+</extension>
