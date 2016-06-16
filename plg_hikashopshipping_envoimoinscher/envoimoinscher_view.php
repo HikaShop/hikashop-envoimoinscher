@@ -18,7 +18,7 @@
 
 ?>
 <p>
-	<input type="radio" value="<?php echo $value; ?>" name="<?php echo $name; ?>'" />
+	<input type="radio" value="<?php echo $value; ?>" name="<?php echo $name; ?>" />
 	<?php echo $relai['name']; ?> : <?php echo $relai['address']; ?>, <?php echo $relai['zipcode']; ?>, <?php echo $relai['city']; ?>
 </p>
 <?php
