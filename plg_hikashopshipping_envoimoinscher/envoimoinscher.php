@@ -823,7 +823,7 @@ function checkAllBox(id, type) {
 	/**
 	 *
 	 */
-	function onCheckoutStepDisplay($layoutName, &$html, &$view) {
+	function onCheckoutStepDisplay($layoutName, &$html, &$view, $pos=null, $options=null) {
 		if($layoutName != 'plg.shop.pickuppoints')
 			return;
 
