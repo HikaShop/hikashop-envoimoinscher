@@ -1,6 +1,7 @@
 # HikaShop - EnvoiMoinsCher
 
 EnvoiMoinsCher shipping plugin for HikaShop (open source e-commerce solution for Joomla!).
+
 THIS PLUGIN IS NOT SUPPORTED ANYMORE. It is here only as a reference.
 
 ## Requirements
